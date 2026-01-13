@@ -42,16 +42,16 @@ class PlasticCost {
         Scanner sc = new Scanner(System.in);
         System.out.println("For Sheet\n");
         System.out.print("Enter Length: ");
-        float length = sc.nextInt();
+        float length = sc.nextFloat();
         System.out.print("Enter Breadth: ");
-        float breadth = sc.nextInt();
+        float breadth = sc.nextFloat();
         sheet s = new sheet(length, breadth);
         System.out.println("Area of Sheet = "+s.getArea());
         System.out.println("Cost of Sheet = "+s.getSheetCost());
 
         System.out.println("\nFor Box\n");
         System.out.print("Enter Height: ");
-        float height = sc.nextInt();
+        float height = sc.nextFloat();
         box b = new box(length,breadth,height);
         System.out.println("Volume of Box = "+b.getVolume());
         System.out.println("Cost of Box = "+b.getBoxCost());
