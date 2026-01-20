@@ -41,7 +41,7 @@ class head implements manager{
     }
 }
 
-public class Question_3 {
+public class Question3 {
     public static void main(String[] args){
         head h = new head();
         h.getDetails();

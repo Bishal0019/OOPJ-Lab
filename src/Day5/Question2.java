@@ -19,7 +19,7 @@ abstract class Manager implements salary{
         double DA = 0.8*basic;
         double HRA = 0.15*basic;
         //basic=basic+DA+HRA;
-        System.out.println("Total Extras - "+(DA+HRA));
+        System.out.println("Earnings - "+(DA+HRA+basic));
     }
 
     public void deductions() {
